@@ -15,10 +15,10 @@ export const CertificateDisplay = ({
         padding: 4,
         textAlign: "center",
         position: "relative",
-        width: "70%",
+        width: "842px",
         margin: "20px auto",
         borderRadius: "10px",
-        minHeight: "350px",
+        minHeight: "520px",
       }}
     >
       <Box
@@ -70,7 +70,7 @@ export const CertificateDisplay = ({
         sx={{
           marginTop: "180px",
           textAlign: "left",
-          width: "70%",
+          width: "75%",
         }}
       >
         {name} successfully completed the {description}
@@ -113,7 +113,7 @@ export const CertificateDisplay = ({
         <img
           src="/assets/cert.png"
           alt="Certificate"
-          style={{ width: '45px', height: '50px', marginRight: '2px' }}
+          style={{ width: '48px', height: '53px', marginRight: '2px' }}
         />
         <Typography
           variant="body2"
